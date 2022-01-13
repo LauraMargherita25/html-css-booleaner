@@ -24,6 +24,64 @@
     border: solid 20px white;
 }
 
+#title{
+    font-family: 'Merriweather', serif;
+  }
+  
+  #title > h1{
+    font-size: 35px;
+    margin-top: 20px;
+  }
+  
+  #author{
+    font-size: 15px;
+    color: gray;
+  }
+  
+  #author > span{
+    color: lightskyblue;
+  }
+  
+  #date{
+    font-size: 10px;
+    color: gray;
+  }
+  
+  #photos p{
+    font-size: 15px;
+  }
+  
+  #article{
+    font-size: 25px;
+  }
+  
+  #part_1 > span{
+    background-color: yellow;
+  }
+  
+  #article > ul{
+    padding-left: 25px;
+  }
+  
+  thead{
+    background-color: rgb(0, 153, 255);
+  }
+  
+  tbody{
+    background-color: rgb(0, 255, 255);
+  }
+  
+  .blue{
+    background-color: rgb(179, 255, 255);
+  }
+  
+  .colonna1 .colonna2{
+    width: 20%;
+  }
+  
+  .colonna3 {
+    width: 60%;
+  }
 /* #title {
     margin-bottom: 20px;
 }
