@@ -82,70 +82,25 @@
   .colonna3 {
     width: 60%;
   }
-/* #title {
-    margin-bottom: 20px;
-}
-
-#title > h1{
-    font-family: 'Roboto Slab', serif;
-    font-size: 40px;
-}
-
-#author{
-    font-family: 'Roboto Slab', serif;
+/footer > p{
+    font-family: 'Merriweather', serif;
     font-size: 15px;
     color: gray;
-}
-
-#author > span{
-    color: rgb(6, 185, 245);
-}
-
-#date{
-    font-size: 10px;
-    color: gray;
-}
-
-#photos{
-    margin-bottom: 20px;
-}
-
-#photos > p{
-    font-size: 13px;
-}
-
-#article{
-    margin-bottom: 20px;
-    font-size: 25px;
-}
-
-#article1{
-    margin-bottom: 20px;
-}
-
-#article1 > span,#article2 > span{
-    background-color: yellow;
-}
-
-#article > ul{
-    margin-bottom: 20px;
-    padding-left: 20px;
-}
-
-table{
-    margin-bottom: 20px;
-}
-
-thead{
-    background-color: blue;
+  }
+  
+  .contenuto{
+    width: 300px;
+    height: 200px;
     color: white;
-}
-
-tbody > .lightblue{
-    background-color: lightblue;
-}
-
-tbody > .lightlightblue{
-    background-color: lightcyan
-}
- */
+    font-family: 'Merriweather', serif;
+  }
+  
+  .monitor{
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+  }
+  
+  .graph{
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+  }
