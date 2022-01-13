@@ -1,20 +1,30 @@
 *{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-header{
-    background-color: lightskyblue;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  header{
     height: 200px;
-    background-image: url("../img/pattern.png");
-}
-
+    background-color: lightskyblue;
+    background-image: url(../img/pattern.png);
+  }
+  
+  header > div , main{
+    width: 1200px;
+  }
+  
+  
+  .header_conteiner > img{
+    width: 300px;
+    height: 150px;
+    margin-top: 80px;
+  }
 .conteiner{
     border: solid 20px white;
 }
 
-#title {
+/* #title {
     margin-bottom: 20px;
 }
 
@@ -80,4 +90,4 @@ tbody > .lightblue{
 tbody > .lightlightblue{
     background-color: lightcyan
 }
-
+ */
