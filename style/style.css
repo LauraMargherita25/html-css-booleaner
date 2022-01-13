@@ -11,4 +11,30 @@ header{
     background-size: contain;
 }
 
+main{
+    border: solid 20px white;
+}
 
+#title {
+    margin-bottom: 20px;
+}
+
+#title > h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+}
+
+#author{
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    color: gray;
+}
+
+#author > span{
+    color: rgb(6, 185, 245);
+}
+
+#date{
+    font-size: 10px;
+    color: gray;
+}
