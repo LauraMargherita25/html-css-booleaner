@@ -38,3 +38,11 @@ main{
     font-size: 10px;
     color: gray;
 }
+
+#photos{
+    margin-bottom: 20px;
+}
+
+#photos > p{
+    font-size: 13px;
+}
