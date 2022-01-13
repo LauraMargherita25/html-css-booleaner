@@ -46,3 +46,38 @@ main{
 #photos > p{
     font-size: 13px;
 }
+
+#article{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+#article1{
+    margin-bottom: 20px;
+}
+
+#article1 > span,#article2 > span{
+    background-color: yellow;
+}
+
+#article > ul{
+    margin-bottom: 20px;
+}
+
+table{
+    margin-bottom: 20px;
+}
+
+thead{
+    background-color: blue;
+    color: white;
+}
+
+tbody > .lightblue{
+    background-color: lightblue;
+}
+
+tbody > .lightlightblue{
+    background-color: lightcyan
+}
+
