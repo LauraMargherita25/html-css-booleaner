@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: lightskyblue;
+    height: 100px;
+    background-image: url("img\pattern.png");
+}
+
+
