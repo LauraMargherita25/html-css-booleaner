@@ -83,7 +83,8 @@
   .colonna3 {
     width: 60%;
   }
-/footer > p{
+
+  footer > p{
     font-family: 'Merriweather', serif;
     font-size: 15px;
     color: gray;
