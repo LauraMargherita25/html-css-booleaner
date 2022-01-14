@@ -1,93 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>html-css-booleaner</title>
-    <link rel="stylesheet" href="bonus/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
-</head>
-<body>
-    
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=header, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+
     <header>
-        <div class="header_conteiner">
-          <img src="img/logo.svg" alt="The Booleaner">
-        </div>
+    <div>
+      <img class="main-logo" src="img\logo.svg" alt="The Booleaner">
+    </div>
     </header>
-
-    
+  
     <main>
-        <section id="title">
-            <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
-            <p id="author">Scritto da <span>The Booleaner</span></p>
-            <p id="date">il 10/10/2020</p>
-          </section>
-    
-          <br>
+    <div class="title">
+        <h1>Internet deve essere al servizio del bene pubblico</h1>
+        <div class="author">Scritto da <a href="#!">The Booleaner</a></div>
+        <div class="date">il 10/10/2020</div>
+    </div>
 
-          <section id="photos">
-            <img src="img\tim-1.jpg" alt="1st Photo: Jhon S. and James L. Knight Foundetion By Scott Henrichsen">
-            <img src="img\tim-2.jpg" alt="2nd Photo: Wikimedia, By Paul Clark">
-            <p>1st Photo: Jhon S. and James L. Knight Foundetion By Scott Henrichsen</p>
-            <p>2nd Photo: Wikimedia, By Paul Clarke</p>
-          </section>
-    
-          <br>
-    
-          <section id="article">
-            <p id="part_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit,<span>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <br>
-            <ul>
-              <li>Excepteur sint occaecat cupidatat non proi</li>
-              <li>Duis aute irure dolor in reprehenderit in voluptate velit esse</li>
-              <li>Excepteur sint occaecat cupidatat non proident</li>
-            </ul>
-            <br>
-            <table>
-              <thead>
-                <tr>
-                  <th class="colonna1">Lorem ipsum dolor</th>
-                  <th class="colonna2">Lorem ipsum dolor</th>
-                  <th class="colonna3">Lorem ipsum dolor</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr class="blue">
-                  <td class="colonna1">consectetur adipisicing</td>
-                  <td class="colonna2">consectetur adipisicing</td>
-                  <td class="colonna3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
-                </tr>
-                <tr>
-                  <td class="colonna1">consectetur adipisicing</td>
-                  <td class="colonna2">consectetur adipisicing</td>
-                  <td class="colonna3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
-                </tr>
-                <tr class="blue">
-                  <td class="colonna1">consectetur adipisicing</td>
-                  <td class="colonna2">consectetur adipisicing</td>
-                  <td class="colonna3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
-                </tr>
-              </tbody>
-            </table>
-            <br>
-            <p id="part_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit,<span>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </section>
-    
-          <br>
-        </main>
+    <div class="photo">
+        <img src="img/tim-1.jpg" alt="">
+        <img src="img/tim-2.jpg" alt="">
+        <p>Descrizione foto1</p>
+        <p>Descrizione foto2</p>
+    </div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <mark>Assumenda dolor, obcaecati tempora optio enim fuga ratione autem ex </mark>nesciunt a voluptatem quam voluptas rem accusamus odit quae saepe minima dolore?</p>
         
-        <footer>
-            <p>Potrebbe interessarti anche:</p>
-            <br>
-            <div class="contenuto monitor">
-              <h1>Lorem Ipsum Dolor </h1>
-            </div>
-            <br>
-            <div class="contenuto graph">
-              <h1>Lorem Ipsum Dolor </h1>
-            </div>
-          </footer>
+    <ul class="item-list">
+        <li>Lorem ipsum dolor</li>
+        <li>Lorem ipsum dolor</li>
+        <li>Lorem ipsum dolor</li>
+    </ul>
+
+    <table>
+        <thead>
+            <tr class="main-row">
+                <th>Lorem ipsum dolor</th>
+                <th>Lorem ipsum dolor</th>
+                <th class="quarter">Lorem ipsum dolor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="odd">
+                <td>Lorem ipsum dolor</td>
+                <td>Lorem ipsum dolor</td>
+                <td class="quarter">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate obcaecati saepe adipisci nemo! In cupiditate voluptatibus est perferendis eos laudantium accusantium ullam veniam. Vitae enim animi, distinctio aspernatur quo sint.</td>
+            </tr>
+            <tr class="odp">
+                <td>Lorem ipsum dolor</td>
+                <td>Lorem ipsum dolor</td>
+                <td class="quarter">th>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate deserunt delectus alias, dignissimos id tempora beatae temporibus aspernatur earum totam iusto harum. Tempore libero quasi tenetur molestiae vel unde magni!</td>
+            </tr>
+            <tr class="odd">
+                <td>Lorem ipsum dolor</td>
+                <td>Lorem ipsum dolor</td>
+                <td class="quarter">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum nam nihil nobis aut officiis qui quae delectus laudantium tempore ipsam nesciunt deleniti, cupiditate perferendis consequuntur quia, animi eum, cumque porro?</td>
+            </tr>
+        </tbody>
+    </table>
+    </main>
     
-</body>
+    <footer>
+    <h2>Potrebbe interessarti</h2>
+    <div class="related monitor">Lorem ipsum</div>
+    <div class="related graph">Lorem ipsum</div>  
+    </footer>
+  
+  </body>
 </html>
